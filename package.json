@@ -1,8 +1,0 @@
-{
-  "name": "loja-vecorion",
-  "private": true,
-  "description": "Loja Vecorion - site estatico (index.html) com Netlify Functions e Netlify Blobs para catalogo e pedidos online.",
-  "dependencies": {
-    "@netlify/blobs": "^11.1.1"
-  }
-}
