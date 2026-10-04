@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# Link de compartilhamento de produto (ex.: /p/abc123). O servidor não existe
+# nesse caminho de verdade — cai no mesmo index.html de sempre, que detecta
+# o formato e entra direto na página do produto certo.
+[[redirects]]
+  from = "/p/*"
+  to = "/index.html"
+  status = 200
